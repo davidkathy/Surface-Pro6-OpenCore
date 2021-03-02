@@ -2,14 +2,29 @@
 SurfacePro6-Opencore
 
 --前言
-有一天开车回家的路上，听广播说“某通讯软件偷偷读取Chrome浏览记录”，突然发现是否可以更换苹果系统避免这个问题。
-本来计划使用自己MacPro作为自己的办公机器，然而满多软件不能运行在OSX下，只能看看自己的SurfacePro6，看看是不是可以Hackintosh。
-其实很早以前就有安装黑苹果的经历，还记得第一次做IPAD app开发就是在X61下安装的Snow Lepard，那时候还是用的Chameleon 变色龙。
-说干就干，百度了半天，补充了相关知识，跟着大佬https://github.com/molie34/Surface-Pro-6-macOS/blob/master/README.md 手把手把系统安装好了。
+- 有一天开车回家的路上，听广播说“某通讯软件偷偷读取Chrome浏览记录”，突然发现是否可以更换苹果系统避免这个问题。
+
+-本来计划使用自己MacPro作为自己的办公机器，然而满多软件不能运行在OSX下，只能看看自己的SurfacePro6，看看是不是可
+
+以Hackintosh。
+
+其实很早以前就有安装黑苹果的经历，还记得第一次做IPAD app开发就是在X61下安装的Snow Lepard，那时候还是用的Chameleon
+
+ 变色龙。
+说干就干，百度了半天，补充了相关知识，跟着大佬https://github.com/molie34/Surface-Pro-6-macOS/blob/master/README.md 
+
+手把手把系统安装好了。
 然后有一天手贱，windows使用软件做了下系统瘦身，系统就变的奇奇怪怪，花费很多时间都没有解决，只能恢复Windows系统。
+
+
 恢复系统后，就把所有固件也一起更新了下，然后就进去不clover了。
-发生了问题，就要多百度和谷歌，在大佬的提示下发现Opencore下已经解决了UEFI导致的问题，DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
-又重新开始学校OpenCore ：）
+
+
+发生了问题，就要多百度和谷歌，在大佬的提示下发现Opencore下已经解决了UEFI导致的问题，
+
+DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446又重新开始学校OpenCore ：
+
+）
 感谢万能的搜索，发现一个Surface Pro7可以正常使用OC文件，下载下来看看Pro6能否正常使用，就有了下面的文字。
 
 
@@ -40,7 +55,7 @@ OC-声卡参数设置：声卡alcid=47 声卡
 后续准备解决 电源按键和HDMI显示的问题。
 
 
-目前完成：
+目前完成： 
 内屏显示内建正常；
 亮度可调节；
 ALC298内建正常；
