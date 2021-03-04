@@ -4,7 +4,7 @@ SurfacePro6-Opencore
 --前言
 - 有一天开车回家的路上，听广播说“某通讯软件偷偷读取Chrome浏览记录”，突然发现是否可以更换苹果系统避免这个问题。
 
-本来计划使用自己MacPro作为自己的办公机器，然而满多软件不能运行在OSX下，只能看看自己的SurfacePro6，看看
+本来计划使用自己MacBook Pro作为自己的办公机器，然而满多软件不能运行在OSX下，只能看看自己的Surface Pro6，看看
 
 是不是可以Hackintosh。
 
@@ -13,9 +13,9 @@ SurfacePro6-Opencore
 
 说干就干，百度了半天，补充了相关知识，跟着大佬https://github.com/molie34/Surface-Pro-6-macOS/blob/master/README.md 
 
-手把手把系统安装好了。然后有一天手贱，windows使用软件做了下系统瘦身，系统就变的奇奇怪怪，花费很多时间都
+手把手把系统安装好了。然而有一天手贱，Windows下使用软件做了下系统瘦身，系统就变的奇奇怪怪，花费很多时间都
 
-没有解决，只能恢复Windows系统。恢复系统后，就把所有固件也一起更新了下，然后就进去不clover了。
+没有解决，只能恢复Windows系统。恢复系统后，顺手就把所有固件也一起更新了下，然后就进去不clover了。
 
 
 发生了问题，就要多百度和谷歌，在大佬的提示下发现Opencore下已经解决了UEFI导致的问题，重新开始学习OpenCore的相关知识 :)
@@ -39,7 +39,10 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 
 
 
-
+##20210304
+- 解决了小米随身Wi-Fi连接网络的问题，需要对kext中的info.plist信息进行修改。
+\System\Library\Extensions\RT2870USBWirelessDriver.kext\Contents\Info.plist
+小米wifi使用的是联发科的MT7601芯片，它的pid是4106，vid是2717。换算为10进制pid是16646，vid是10007。
 
 ## 20210302
 - V1.0 解决外接HDMI问题，未完全解决，显示异色
@@ -70,6 +73,7 @@ OC-声卡参数设置：声卡alcid=47 声卡
 7. 内建假冒en0网卡；
 8. App Store登陆正常，下载正常；
 9. iCloud登陆正常；
+<<<<<<< Updated upstream
 10. 触控板功能正常；
 11. 休眠睡眠唤醒正常
 
@@ -81,6 +85,18 @@ OC-声卡参数设置：声卡alcid=47 声卡
 5. iMessage正常；
 6. 电源按键正常，按三秒显示关键菜单，按一秒开关屏幕；
 7. 触控板设置正常
+=======
+10. 触控板功能正常
+11. 休眠睡眠唤醒正常；
+
+## 还未正常项目：
+1. Lid未正常
+2. 外接HDMI颜色正常
+3. Siri正常；
+4. iMessage正常
+5. 电源按键正常，按三秒显示关键菜单，按一秒开关屏幕
+5. 触控板设置正常
+>>>>>>> Stashed changes
 
 ## 未进行项目：
 1. 音量+-按键；
