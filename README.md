@@ -18,9 +18,9 @@ SurfacePro6-Opencore
 没有解决，只能恢复Windows系统。恢复系统后，就把所有固件也一起更新了下，然后就进去不clover了。
 
 
-发生了问题，就要多百度和谷歌，在大佬的提示下发现Opencore下已经解决了UEFI导致的问题，
+发生了问题，就要多百度和谷歌，在大佬的提示下发现Opencore下已经解决了UEFI导致的问题，重新开始学习OpenCore的相关知识 :)
 
-DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446又重新开始学校OpenCore :)
+DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446 
 
 感谢万能的搜索，发现一个Surface Pro7可以正常使用OC文件，下载下来看看Pro6能否正常使用，于是就有了下面的文字。
 
