@@ -1,6 +1,6 @@
 # Surface-Pro6-Opencore
 
---前言
+## 前言
 - 有一天开车回家的路上，听广播说“某通讯软件偷偷读取Chrome浏览记录”, 突然发现是否可以更换苹果系统避免这个问题。
 
 本来计划使用自己MacBook Pro作为自己的办公机器，然而满多软件不能运行在OSX下，只能看看自己的Surface Pro6，看看
@@ -38,10 +38,8 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 - 硬盘驱动器 ：Skhynix BC501 NVMe 256GB  (256 GB)
 - OpenCore版本 0.6.7
 
-## 20210305
+## 20210305 V1.1 EFI
 - 解决HDMI显示异色问题
-- 发现新的问题，关机第一次启动时，选择MACOS时，内屏显示黑屏，HDMI正常。
-- 此问题，若第一次启动选择windows，重启进去macos时，内屏显示正常
 
 ## 20210304
 - 解决了小米随身Wi-Fi连接网络的问题，需要对kext中的info.plist信息进行修改。
@@ -94,5 +92,5 @@ OC-声卡参数设置：声卡alcid=47 声卡
 1. 电量显示；
 
 ## 全球暂时无解：
-1. 触摸屏、内置蓝牙、内置WiFi、摄像头；
+1. 触摸屏、内置蓝牙+内置WiFi、摄像头；
 
