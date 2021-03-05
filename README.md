@@ -48,6 +48,8 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 \System\Library\Extensions\RT2870USBWirelessDriver.kext\Contents\Info.plist
 小米wifi使用的是联发科的MT7601芯片，它的pid是4106，vid是2717。换算为10进制pid是16646，vid是10007。
 
+<font color=#0000FF  >update 使用一天后，再次开机，DWA160程序crash了，未知异常，后续有机会再看看。</font>
+
 ## 20210302
 - V1.0 解决外接HDMI问题，未完全解决，显示异色
 - V1.1 解决亮度调节功能，去除多余SSDT文件，重新编译config.plist，亮度调节正常
@@ -62,7 +64,7 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 -  显示异常，显卡驱动19M
 经过查询相关资料已经反复测试，修改文档中几个关键节点，目前解决了这两个问题。
 OC-显卡参数设置：
-显卡还需要在args，参数中，增加 -wegnoegpu（关键，要不然显卡驱动异常只有19M，且CPU平台识别异常）
+显卡还需要在args，参数中，增加 <font color=#FF0000 >-wegnoegpu</font>（关键，要不然显卡驱动异常只有19M，且CPU平台识别异常）
 
 OC-声卡参数设置：声卡alcid=47 声卡
 
