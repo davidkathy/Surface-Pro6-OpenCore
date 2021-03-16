@@ -32,7 +32,7 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 - 硬盘驱动器 ：Skhynix BC501 NVMe 256GB  (256 GB)
 - OpenCore版本 0.6.7
 ## 20210316
---解决触摸版设置问题，update VoodooPS2Controller.kext 2.2.2
+-- 解决触摸版设置问题，update VoodooPS2Controller.kext 2.2.2
 
 ## 20210309
 - 遇到一个问题，第一次启动时，内屏黑屏，HDMI可用，需要进入windows重启一次才能进入系统。 测试过reset nvram没作用。等待有时间进行测试验证时哪些参数设置问题。
@@ -77,14 +77,14 @@ OC-声卡参数设置：声卡alcid=47 声卡
 8. iCloud登陆正常；
 9. 触控板正常；
 10. 休眠睡眠唤醒正常
+11. Siri正常；
+12. iMessage正常；
 
 
 ## 还未正常项目：
 1. Lid未正常；
 2. 电源按键正常，按三秒显示关键菜单，按一秒开关屏幕；
-3. Siri正常；
-4. iMessage正常；
-5. 首次冷开机，进入系统内屏黑屏
+3. 首次冷开机，进入系统内屏黑屏
 
 
 ## 未进行项目：
