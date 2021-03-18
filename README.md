@@ -31,6 +31,10 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 - 内存：8G
 - 硬盘驱动器 ：Skhynix BC501 NVMe 256GB  (256 GB)
 - OpenCore版本 0.6.7
+
+## 20210319 
+-- 解决冷启动黑屏问题，移除多余ssdt文件，修改配置信息
+
 ## 20210316
 -- 解决触摸版设置问题，update VoodooPS2Controller.kext 2.2.2
 
@@ -79,12 +83,11 @@ OC-声卡参数设置：声卡alcid=47 声卡
 10. 休眠睡眠唤醒正常
 11. Siri正常；
 12. iMessage正常；
+13. Lid正常；
 
 
 ## 还未正常项目：
-1. Lid未正常；
-2. 电源按键正常，按三秒显示关键菜单，按一秒开关屏幕；
-3. 首次冷开机，进入系统内屏黑屏
+1. 电源按键正常，按三秒显示关键菜单，按一秒开关屏幕；
 
 
 ## 未进行项目：
