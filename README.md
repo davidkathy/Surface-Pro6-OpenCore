@@ -32,15 +32,15 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 - 硬盘驱动器 ：Skhynix BC501 NVMe 256GB  (256 GB)
 - OpenCore版本 0.6.7
 
-## 20210319 
--- 解决冷启动黑屏问题，移除多余ssdt文件，修改配置信息。
--- 发现主要影响触控板的两个设定为
---   Misc -> Security -> SecureBootModel Disable
---   Misc -> Security -> DmgLoading   Any
--- 冷启动不开机为多余的SSDT导致，去除大部分无效SSDT后，冷启动问题解决
+## 20210319 V1.2
+- 解决冷启动黑屏问题，移除多余ssdt文件，修改配置信息。
+- 发现主要影响触控板的两个设定为
+-   Misc -> Security -> SecureBootModel Disable
+-   Misc -> Security -> DmgLoading   Any
+- 冷启动不开机为多余的SSDT导致，去除大部分无效SSDT后，冷启动问题解决
 
 ## 20210316
--- 解决触摸版设置问题，update VoodooPS2Controller.kext 2.2.2
+- 解决触摸版设置问题 
 
 ## 20210309
 - 遇到一个问题，第一次启动时，内屏黑屏，HDMI可用，需要进入windows重启一次才能进入系统。 测试过reset nvram没作用。等待有时间进行测试验证时哪些参数设置问题。
