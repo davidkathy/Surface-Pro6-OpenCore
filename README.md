@@ -22,8 +22,8 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 
 
 ## 测试机器：
-- 设备名称: DESKTOP-75JFUT3
 - Surface 型号: Surface Pro 6 型号 1796 i5
+
 ## 版本信息
 - UEFI: 235.3440.768.0
 - CPU：Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
@@ -33,7 +33,11 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 - OpenCore版本 0.6.7
 
 ## 20210319 
--- 解决冷启动黑屏问题，移除多余ssdt文件，修改配置信息
+-- 解决冷启动黑屏问题，移除多余ssdt文件，修改配置信息。
+-- 发现主要影响触控板的两个设定为
+--   Misc -> Security -> SecureBootModel Disable
+--   Misc -> Security -> DmgLoading   Any
+-- 冷启动不开机为多余的SSDT导致，去除大部分无效SSDT后，冷启动问题解决
 
 ## 20210316
 -- 解决触摸版设置问题，update VoodooPS2Controller.kext 2.2.2
