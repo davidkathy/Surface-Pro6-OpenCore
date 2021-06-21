@@ -31,7 +31,8 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 - 内存：8G
 - 硬盘驱动器 ：Skhynix BC501 NVMe 256GB  (256 GB)
 - OpenCore版本 0.6.7
-
+## 20210621 
+- update system to os 11.4 ,everything is keep ok.
 ## 20210319 V1.2
 - 解决冷启动黑屏问题，移除多余ssdt文件，修改配置信息。
 - 发现主要影响触控板的两个设定为
