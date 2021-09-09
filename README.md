@@ -9,8 +9,6 @@
 
 说干就干，百度了半天，补充了相关知识，跟着大佬一步一步学习。
 
-https://github.com/molie34/Surface-Pro-6-macOS/blob/master/README.md 
-
 然而有一天手贱，Windows下使用软件做了下系统瘦身，系统就变的奇奇怪怪，花费很多时间都没有解决，只能恢复Windows系统。恢复系统后，顺手就把所有固件也一起更新了下，然后就进去不clover了。
 
 
@@ -31,6 +29,8 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 - 内存：8G
 - 硬盘驱动器 ：Skhynix BC501 NVMe 256GB  (256 GB)
 - OpenCore版本 0.6.7
+## 20210909
+- 开启 安全启动secure boot & TPM，去除开机恼人的红底警示
 ## 20210621 
 - update system to os 11.4 ,everything is keep ok.
 ## 20210319 V1.2
