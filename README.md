@@ -29,8 +29,10 @@ DisableSecurityPolicy https://github.com/acidanthera/bugtracker/issues/1446
 - 内存：8G
 - 硬盘驱动器 ：Skhynix BC501 NVMe 256GB  (256 GB)
 - OpenCore版本 0.6.7
+## 20220615
+- 电源显示正常 follow https://github.com/Xiashangning/BigSurface 懒的整合zip了
 ## 20220106
-- 电源按键正常，按三秒显示关键菜单
+- 电源按键正常，按三秒显示关机菜单
 - 音量+-按键；
 ## 20210909
 - 开启 安全启动secure boot & TPM，去除开机恼人的红底警示
@@ -94,10 +96,7 @@ OC-声卡参数设置：声卡alcid=47 声卡
 13. Lid正常；
 14. 电源按键正常，按三秒显示关键菜单，按一秒开关屏幕；
 15. 音量+-按键；
- 
-
-## 未进行项目：
-1. 电量显示；
+16. 电量显示；
  
 
 ## 全球暂时无解：
